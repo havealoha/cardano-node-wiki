@@ -180,6 +180,13 @@ sudo make install
 
 #### Installing BLST
 
+Create a working directory for your builds:
+
+```bash
+mkdir -p ~/src
+cd ~/src
+```
+
 Download and install BLST so that cardano-base can pick it up (assuming that pkg-config is installed):
 
 ```bash
